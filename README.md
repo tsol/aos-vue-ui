@@ -19,10 +19,8 @@ You can add your own components or remove currently used to reduce the size of t
 # in root folder
 npm install
 
-cd perma-ui
-
-./build.sh
-./deploy.sh <new_process_name>
+npm run build
+npm run deploy -- <new_process_name>
 
 ```
 
@@ -36,10 +34,15 @@ https://ar-io.dev/<new_process_id>
 
 And you should see Hello World message.
 
+Load ui-example.lua blueprint to see how to create UI for your process.
+
 
 ## Creating UI for your process
 
 Example:
+
+https://ar-io.dev/NOVn8BEuZS6uykWREfnHXvlt9oxayhewzec--kAE9vg
+
 
 ```lua
 
